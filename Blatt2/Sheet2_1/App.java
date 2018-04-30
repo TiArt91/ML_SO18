@@ -22,14 +22,8 @@ public class App
 		ArrayList<Instance> instances_w = new ArrayList<Instance>();
 		ArrayList<Attribute> attributes_c = new ArrayList<Attribute>();
 		ArrayList<Instance> instances_c = new ArrayList<Instance>();
-		ArrayList<Integer> test = new ArrayList<Integer>();
-		ArrayList<Integer> train = new ArrayList<Integer>();
-		ArrayList<Instance> inst= new ArrayList<Instance>();
-		ArrayList<ArrayList<Integer>> set = new ArrayList<ArrayList<Integer>>();
-		Node decisionTree;
-		double[] std = new double[10] ;
-		double mean = 0.0;
-		
+
+
 		
 		File file_weather = new File(args[0]);
 		File file_car = new File(args[1]);
@@ -51,40 +45,43 @@ public class App
 		instances_c = q.getInstances();
 		//System.out.println("Instances:"+instances_c.size());
 		
+		System.out.println("WEATHER DS");
+		train(attributes_w, instances_w, attributes_w.get(4), depth);
+		
+		System.out.println("CARS DS");
+		train(attributes_c, instances_c, attributes_c.get(6), Integer.MAX_VALUE);
+		
+		int[] depths = new int[] {3, 5, 10, 20};
+		for (int i=0; i < depths.length; i++){
+			train(attributes_c, instances_c, attributes_c.get(6), depths[i]);
+		}
+    }
 	
-		
-		
-		
-		
 	
-		double entropy = entropyOnSubset(attributes_c.get(5),indices, instances_c);
-		
-		
-		System.out.println("Entropy on Subset:");
-		System.out.println(entropy);
-	
-		/*
-		double infogain = informationGain(attributes.get(2),attributes.get(0),indices, instances);
-		
-		System.out.println("InfoGain on Subset:");
-		System.out.println(infogain);
-		*/
+	public static void train(ArrayList<Attribute> attributes, ArrayList<Instance> instances, Attribute goal, int depth){
 		int size = 0;
 		int[] count = new int[10];
+		ArrayList<ArrayList<Integer>> set = new ArrayList<ArrayList<Integer>>();
+		Node decisionTree;
+		double[] std = new double[10] ;
+		double mean = 0.0;
+		ArrayList<Integer> test = new ArrayList<Integer>();
+		ArrayList<Integer> train = new ArrayList<Integer>();
+		double[] res = new double [11];
 		
 		for (int i = 0; i<10; i++){
 			
-			size = instances_c.size()/3;	
-			set = redraw(instances_c, size);
+			size = instances.size()/3;	
+			set = redraw(instances, size);
 			test.clear();
 			train.clear();
 			test.addAll(set.get(0));
 			train.addAll(set.get(1));
 			
-			decisionTree = trainModelOnSubset(attributes_c, instances_c, attributes_c.get(6),train, 0);
+			decisionTree = trainModelOnSubset(attributes, instances, goal,train, 0);
 			
 			for (int j = 0; j<test.size(); j++){
-				if(instances_c.get(test.get(j)).getValue(attributes_c.get(6)).equals(decisionTree.classify(instances_c.get(test.get(j))))){
+				if(instances.get(test.get(j)).getValue(goal).equals(decisionTree.classify(instances.get(test.get(j))))){
 					count[i]++;
 				}
 
@@ -96,18 +93,17 @@ public class App
 		mean/= 10.0;
 		mean/=size;
 		
+		res[0]=mean;
+		
 		for (int i = 0; i<10; i++){
-			std[i]=(double)count[i]/size-mean;
-			System.out.println("Std deviation wo depth step "+(i+1)+" :"+std[i]);
+			res[i+1]=(double)count[i]/size-mean;
+			System.out.println("Std deviation with depth "+depth+ " in step "+(i+1)+" :"+res[i+1]);
 		}
-		
-		
-		
 		System.out.println("Mean Accuracy wo depth:");
 		System.out.println(mean);
+		System.out.println();
 		
     }
-	
 	
 	
 
