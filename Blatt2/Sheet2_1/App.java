@@ -74,23 +74,23 @@ public class App
 		
 		for (int i = 0; i<10; i++){
 			
-			size = inst.size()/3;	
+			size = instances_c.size()/3;	
 			set = redraw(instances_c, size);
+			test.clear();
+			train.clear();
 			test.addAll(set.get(0));
 			train.addAll(set.get(1));
 			
 			decisionTree = trainModelOnSubset(attributes_c, instances_c, attributes_c.get(6),train, 0);
 			
 			for (int j = 0; j<test.size(); j++){
-				if(instances_c.get(test.get(j)).equals(decisionTree.classify(instances_c.get(test.get(j))))){
+				if(instances_c.get(test.get(j)).getValue(attributes_c.get(6)).equals(decisionTree.classify(instances_c.get(test.get(j))))){
 					count[i]++;
 				}
-				System.out.println(instances_c.get(test.get(j)));
-				System.out.println(decisionTree.classify(instances_c.get(test.get(j))));
+
 			}
 			
 			mean += count[i]; 
-			System.out.println(mean);
 		}
 		
 		mean/= 10.0;
@@ -98,12 +98,14 @@ public class App
 		
 		for (int i = 0; i<10; i++){
 			std[i]=(double)count[i]/size-mean;
+			System.out.println("Std deviation wo depth step "+(i+1)+" :"+std[i]);
 		}
 		
 		
 		
 		System.out.println("Mean Accuracy wo depth:");
 		System.out.println(mean);
+		
     }
 	
 	
