@@ -1,0 +1,151 @@
+WEATHER DS
+
+Std deviation with depth 100 in step 1 :0.025000000000000022
+
+Std deviation with depth 100 in step 2 :-0.22499999999999998
+
+Std deviation with depth 100 in step 3 :0.275
+
+Std deviation with depth 100 in step 4 :0.025000000000000022
+
+Std deviation with depth 100 in step 5 :0.275
+
+Std deviation with depth 100 in step 6 :-0.22499999999999998
+
+Std deviation with depth 100 in step 7 :0.025000000000000022
+
+Std deviation with depth 100 in step 8 :0.025000000000000022
+
+Std deviation with depth 100 in step 9 :-0.22499999999999998
+
+Std deviation with depth 100 in step 10 :0.025000000000000022
+
+Mean Accuracy wo depth:
+0.725
+
+
+
+CARS DS
+
+Std deviation with depth 2147483647 in step 1 :6.94444444444442E-4
+
+Std deviation with depth 2147483647 in step 2 :-0.007986111111111138
+
+Std deviation with depth 2147483647 in step 3 :-0.009722222222222188
+
+Std deviation with depth 2147483647 in step 4 :-0.004513888888888928
+
+Std deviation with depth 2147483647 in step 5 :-0.004513888888888928
+
+Std deviation with depth 2147483647 in step 6 :0.012847222222222232
+
+Std deviation with depth 2147483647 in step 7 :-0.002777777777777768
+
+Std deviation with depth 2147483647 in step 8 :0.012847222222222232
+
+Std deviation with depth 2147483647 in step 9 :0.007638888888888862
+
+Std deviation with depth 2147483647 in step 10 :-0.004513888888888928
+
+Mean Accuracy wo depth:
+0.6989583333333333
+
+
+
+Std deviation with depth 3 in step 1 :-0.005902777777777812
+
+Std deviation with depth 3 in step 2 :0.021874999999999978
+
+Std deviation with depth 3 in step 3 :-0.009375000000000022
+
+Std deviation with depth 3 in step 4 :0.007986111111111138
+
+Std deviation with depth 3 in step 5 :-0.014583333333333282
+
+Std deviation with depth 3 in step 6 :0.021874999999999978
+
+Std deviation with depth 3 in step 7 :0.013194444444444509
+
+Std deviation with depth 3 in step 8 :-0.02673611111111107
+
+Std deviation with depth 3 in step 9 :-0.004166666666666652
+
+Std deviation with depth 3 in step 10 :-0.004166666666666652
+
+Mean Accuracy wo depth:
+0.6916666666666667
+
+
+
+Std deviation with depth 5 in step 1 :0.021180555555555536
+
+Std deviation with depth 5 in step 2 :0.009027777777777857
+
+Std deviation with depth 5 in step 3 :-0.027430555555555514
+
+Std deviation with depth 5 in step 4 :-0.006597222222222143
+
+Std deviation with depth 5 in step 5 :0.010763888888888906
+
+Std deviation with depth 5 in step 6 :0.002083333333333326
+
+Std deviation with depth 5 in step 7 :-0.004861111111111094
+
+Std deviation with depth 5 in step 8 :3.472222222222765E-4
+
+Std deviation with depth 5 in step 9 :-0.025694444444444464
+
+Std deviation with depth 5 in step 10 :0.021180555555555536
+
+Mean Accuracy wo depth:
+0.7114583333333333
+
+
+
+Std deviation with depth 10 in step 1 :0.008333333333333304
+
+Std deviation with depth 10 in step 2 :-3.472222222221655E-4
+
+Std deviation with depth 10 in step 3 :-0.014236111111111116
+
+Std deviation with depth 10 in step 4 :-0.005555555555555536
+
+Std deviation with depth 10 in step 5 :0.017013888888888884
+
+Std deviation with depth 10 in step 6 :-0.021180555555555536
+
+Std deviation with depth 10 in step 7 :0.006597222222222254
+
+Std deviation with depth 10 in step 8 :-0.015972222222222165
+
+Std deviation with depth 10 in step 9 :0.015277777777777835
+
+Std deviation with depth 10 in step 10 :0.010069444444444464
+
+Mean Accuracy wo depth:
+0.7052083333333333
+
+
+
+Std deviation with depth 20 in step 1 :-0.004166666666666652
+
+Std deviation with depth 20 in step 2 :-0.016319444444444442
+
+Std deviation with depth 20 in step 3 :-0.012847222222222232
+
+Std deviation with depth 20 in step 4 :0.004513888888888928
+
+Std deviation with depth 20 in step 5 :0.02013888888888893
+
+Std deviation with depth 20 in step 6 :-0.004166666666666652
+
+Std deviation with depth 20 in step 7 :0.004513888888888928
+
+Std deviation with depth 20 in step 8 :-0.012847222222222232
+
+Std deviation with depth 20 in step 9 :0.014930555555555558
+
+Std deviation with depth 20 in step 10 :0.006250000000000089
+
+Mean Accuracy wo depth:
+0.6986111111111111
