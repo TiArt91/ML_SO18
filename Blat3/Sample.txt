@@ -1,0 +1,112 @@
+ Number of trees: 1
+Iteration: 0 Accuracy:0.8223938223938224
+Iteration: 1 Accuracy:0.8359073359073359
+Iteration: 2 Accuracy:0.8455598455598455
+Iteration: 3 Accuracy:0.8725868725868726
+Iteration: 4 Accuracy:0.8455598455598455
+Iteration: 5 Accuracy:0.7837837837837838
+Iteration: 6 Accuracy:0.8494208494208494
+Iteration: 7 Accuracy:0.8243243243243243
+Iteration: 8 Accuracy:0.8166023166023166
+Iteration: 9 Accuracy:0.8416988416988417
+Mean: 0.8337837837837837
+StdDev: 0.02382604039459419
+
+ Number of trees: 5
+Iteration: 0 Accuracy:0.8918918918918919
+Iteration: 1 Accuracy:0.8918918918918919
+Iteration: 2 Accuracy:0.8841698841698842
+Iteration: 3 Accuracy:0.915057915057915
+Iteration: 4 Accuracy:0.8996138996138996
+Iteration: 5 Accuracy:0.8745173745173745
+Iteration: 6 Accuracy:0.9092664092664092
+Iteration: 7 Accuracy:0.8822393822393823
+Iteration: 8 Accuracy:0.8996138996138996
+Iteration: 9 Accuracy:0.8745173745173745
+Mean: 0.8922779922779922
+StdDev: 0.013795549236408328
+
+ Number of trees: 10
+Iteration: 0 Accuracy:0.9227799227799228
+Iteration: 1 Accuracy:0.9034749034749034
+Iteration: 2 Accuracy:0.9111969111969112
+Iteration: 3 Accuracy:0.9382239382239382
+Iteration: 4 Accuracy:0.9073359073359073
+Iteration: 5 Accuracy:0.9111969111969112
+Iteration: 6 Accuracy:0.9247104247104247
+Iteration: 7 Accuracy:0.888030888030888
+Iteration: 8 Accuracy:0.915057915057915
+Iteration: 9 Accuracy:0.915057915057915
+Mean: 0.9137065637065638
+StdDev: 0.01343822872988857
+
+ Number of trees: 20
+Iteration: 0 Accuracy:0.9227799227799228
+Iteration: 1 Accuracy:0.9343629343629344
+Iteration: 2 Accuracy:0.9285714285714286
+Iteration: 3 Accuracy:0.9459459459459459
+Iteration: 4 Accuracy:0.9227799227799228
+Iteration: 5 Accuracy:0.9131274131274131
+Iteration: 6 Accuracy:0.9305019305019305
+Iteration: 7 Accuracy:0.9015444015444015
+Iteration: 8 Accuracy:0.9362934362934363
+Iteration: 9 Accuracy:0.915057915057915
+Mean: 0.9250965250965251
+StdDev: 0.012895727207078884
+
+ Number of trees: 30
+Iteration: 0 Accuracy:0.9324324324324325
+Iteration: 1 Accuracy:0.9478764478764479
+Iteration: 2 Accuracy:0.9343629343629344
+Iteration: 3 Accuracy:0.9324324324324325
+Iteration: 4 Accuracy:0.9343629343629344
+Iteration: 5 Accuracy:0.9111969111969112
+Iteration: 6 Accuracy:0.9343629343629344
+Iteration: 7 Accuracy:0.9015444015444015
+Iteration: 8 Accuracy:0.9382239382239382
+Iteration: 9 Accuracy:0.9131274131274131
+Mean: 0.927992277992278
+StdDev: 0.01439055066356706
+
+ Number of trees: 40
+Iteration: 0 Accuracy:0.9285714285714286
+Iteration: 1 Accuracy:0.9498069498069498
+Iteration: 2 Accuracy:0.9324324324324325
+Iteration: 3 Accuracy:0.9343629343629344
+Iteration: 4 Accuracy:0.9362934362934363
+Iteration: 5 Accuracy:0.9054054054054054
+Iteration: 6 Accuracy:0.9324324324324325
+Iteration: 7 Accuracy:0.918918918918919
+Iteration: 8 Accuracy:0.9362934362934363
+Iteration: 9 Accuracy:0.9131274131274131
+Mean: 0.9287644787644787
+StdDev: 0.012916582411808314
+
+ Number of trees: 50
+Iteration: 0 Accuracy:0.9324324324324325
+Iteration: 1 Accuracy:0.9536679536679536
+Iteration: 2 Accuracy:0.9362934362934363
+Iteration: 3 Accuracy:0.944015444015444
+Iteration: 4 Accuracy:0.9362934362934363
+Iteration: 5 Accuracy:0.9092664092664092
+Iteration: 6 Accuracy:0.9420849420849421
+Iteration: 7 Accuracy:0.9208494208494209
+Iteration: 8 Accuracy:0.9343629343629344
+Iteration: 9 Accuracy:0.9247104247104247
+Mean: 0.9333976833976833
+StdDev: 0.012618192761343355
+
+ Number of trees: 100
+Iteration: 0 Accuracy:0.9343629343629344
+Iteration: 1 Accuracy:0.9478764478764479
+Iteration: 2 Accuracy:0.9420849420849421
+Iteration: 3 Accuracy:0.9343629343629344
+Iteration: 4 Accuracy:0.9401544401544402
+Iteration: 5 Accuracy:0.9073359073359073
+Iteration: 6 Accuracy:0.9401544401544402
+Iteration: 7 Accuracy:0.916988416988417
+Iteration: 8 Accuracy:0.9305019305019305
+Iteration: 9 Accuracy:0.9247104247104247
+Mean: 0.931853281853282
+StdDev: 0.012413059026400974
+
