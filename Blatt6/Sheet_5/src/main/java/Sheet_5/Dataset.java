@@ -1,7 +1,16 @@
 package Sheet_5;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class Dataset {
 
@@ -43,17 +52,25 @@ public class Dataset {
 			
 	}
 	
-	public Dataset (Dataset d){
-		new Dataset(d.n,d.vocabulary,d.a,d.b,d.e,d.v,d.countA,d.countB,d.countE,d.countV);
-	}
-	
-	
-	public HashMap<String, Integer> getA(){
-		return a;
-	}
-	
-	public void clean (){
+	public void print(){
 		
+	   	System.out.println("a:  "+a.size());
+	   	System.out.println("b:  "+b.size());
+	   	System.out.println("e:  "+e.size());
+	   	System.out.println("v:  "+v.size());
+	   	
+	   	System.out.println("countA:  "+countA);
+	   	System.out.println("countB:  "+countB);
+	   	System.out.println("countE:  "+countE);
+	   	System.out.println("countV:  "+countV);
+	   	
+	   	System.out.println("n:  "+n);
+	   	System.out.println("vocabulary:  "+vocabulary.size());
+	   	
 	}
+		
+	
+	
+	
 }
 

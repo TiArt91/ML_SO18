@@ -1,1 +1,2 @@
-Eingabe Path von Trainingsdatei, Path von Testdatei
+Eingabe: Path von Trainingsdatei, Path von Testdatei
+Ausgabe: 

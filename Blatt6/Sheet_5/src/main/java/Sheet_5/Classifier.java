@@ -38,6 +38,18 @@ public class Classifier {
 		
 	}
 	
+	public Classifier(){
+		this.pVa=0;
+		this.pVb=0;
+		this.pVe=0;
+		this.pVv=0;
+		
+		this.pBa=null;
+		this.pBb=null;
+		this.pBe=null;
+		this.pBv=null;
+	}
+	
 }
 	
 
